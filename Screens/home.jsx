@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Text, View, ScrollView, Image, Pressable } from 'react-native'
+import Slideshow from 'react-native-image-slider-show'
 
 export class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ export class Home extends Component {
               <Text className="text-left left-4 top-4 text-3xl font-extrabold ">HikeMate</Text>
             </View>
           </View>
+        
           <View className="w-screen">
             <Image className="w-full h-52 rounded-sm ml-2 " resizeMode="contain" source={require("../assets/image1.png")} ></Image>
           </View>
